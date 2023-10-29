@@ -1,9 +1,15 @@
 {
-  "name": "jolt-transform",
+  "name": "jolt-demo",
   "version": "1.0.0",
   "description": "JSON-to-JSON transformations with JOLT",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/br93/npm-jolt-transform.git"
@@ -17,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/br93/npm-jolt-transform/issues"
   },
-  "homepage": "https://github.com/br93/npm-jolt-transform"
+  "homepage": "https://github.com/br93/npm-jolt-transform",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
