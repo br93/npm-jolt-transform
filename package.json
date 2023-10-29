@@ -1,0 +1,21 @@
+{
+  "name": "jolt-transform",
+  "version": "1.0.0",
+  "description": "JSON-to-JSON transformations with JOLT",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/br93/npm-jolt-transform.git"
+  },
+  "keywords": [
+    "jolt",
+    "json"
+  ],
+  "author": "Bruno Reis <br93>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/br93/npm-jolt-transform/issues"
+  },
+  "homepage": "https://github.com/br93/npm-jolt-transform"
+}
